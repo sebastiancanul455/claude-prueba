@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Secretos y entorno
+.env
+.env.*
+
+# --- Datos clínicos: NUNCA versionar datos reales de pacientes ---
+*.dcm
+*.dicom
+*.DCM
+datos_reales/
+phi/
+*.db
+*.sqlite
+
+# Local de Claude Code
+.claude/settings.local.json
